@@ -2,9 +2,9 @@ package com.lambdaschool;
 
 public abstract class Animal {
   private static int maxId = 0;
-  private int id;
-  private String name;
-  private int yearNamed;
+  int id;
+  String name;
+  int yearNamed;
 
   public Animal(String name, int yearNamed) {
     maxId++;
@@ -14,8 +14,16 @@ public abstract class Animal {
     this.yearNamed = yearNamed;
   }
 
+  public String getName() {
+    return name;
+  }
+
+  public int getYearNamed() {
+    return yearNamed;
+  }
+
   public String eat() {
-    return "Eats food";
+    return "Eats";
   }
 
   public abstract String move();
