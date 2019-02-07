@@ -12,6 +12,8 @@ public class Main {
   }
 
   public static void main(String[] args) {
+    String json = "{ \"type\" : \"Mammel\", \"name\" : \"Panda\", \"yearNamed\" : \"1869\" }";
+
     // TODO: Read in JSON data files
     // Create collections
     ArrayList<Animal> animals = new ArrayList<>();
