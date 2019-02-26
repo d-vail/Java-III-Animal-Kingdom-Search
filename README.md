@@ -43,3 +43,38 @@ A simple search app to practice Java interfaces, abstract classes and Lambda Exp
 - List only those animals that breath with lungs and were named in 1758
 - List only those animals that lay eggs and breath with lungs
 - List alphabetically only those animals that were named in 1758
+
+### Build from Source
+
+Ensure that you have Git and JDK 11.
+
+#### Get the Source Code
+
+```` bash
+git clone https://github.com/d-vail/Java-III-Animal-Kingdom-Search.git
+cd Java-III-Animal-Kingdom-Search
+````
+
+#### Build and Run from the Command Line
+
+To compile and build the project use:
+
+```` bash
+./gradlew build
+````
+
+To run the application use:
+
+```` bash
+./gradlew run
+````
+
+#### Import into IntelliJ IDEA
+
+Ensure JDK 11 is configured properly in the IDE.
+
+- _From Welcome Screen_: Import Project -> Navigate to the project directory -> 
+  Select `build.gradle`
+- _From the Editor_: File -> New -> Project from Existing Sources -> Navigate to
+  the project directory -> Select `build.gradle`
+
